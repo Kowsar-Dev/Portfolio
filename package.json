@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "bulid":"vite bulid"
+    "build":"vite build"
     
   },
   "devDependencies": {
