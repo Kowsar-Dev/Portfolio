@@ -6,7 +6,9 @@
     "tailwindcss": "^4.1.13"
   },
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "bulid":"vite bulid"
+    
   },
   "devDependencies": {
     "daisyui": "^5.1.13"
