@@ -5,21 +5,20 @@
       "destination": "/index.html"
     },
     {
-      "source": "/Service",
+      "source": "/service",
       "destination": "/services.html"
     },
     {
-      "source": "/About",
+      "source": "/about",
       "destination": "/about.html"
     },
     {
-      "source": "/Skills",
+      "source": "/skills",
       "destination": "/skills.html"
     },
      {
-      "source": "/Contact",
+      "source": "/contact",
       "destination": "/contact.html"
-    }
-    
+    }    
   ]
 }
