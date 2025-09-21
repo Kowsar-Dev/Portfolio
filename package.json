@@ -3,12 +3,12 @@
     "@tailwindcss/postcss": "^4.1.13",
     "@tailwindcss/vite": "^4.1.13",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.13"
+    "tailwindcss": "^4.1.13",
+    "vite": "^7.1.6"
   },
   "scripts": {
     "dev": "vite",
-    "build":"vite build"
-    
+    "build": "vite build"
   },
   "devDependencies": {
     "daisyui": "^5.1.13"
