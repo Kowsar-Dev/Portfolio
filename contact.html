@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <header class="header bg-[#EEEEEE]">
+      <nav class="container mx-auto">
+        <div class="drawer">
+          <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+          <div class="drawer-content flex flex-col">
+            <!-- Navbar -->
+            <div class="navbar bg-base-300 w-full">
+              <div class="mx-2 flex-1 px-2">
+                <p class="text-xl font-semibold font-serif"><a href="index.html">Kowsar.Dev</a></p>
+              </div>
+              <div class="hidden flex-none lg:block">
+                <ul class="menu menu-horizontal">
+                  <!-- Navbar menu content here -->
+                  <li>
+                    <a href="index.html" class="text-md font-sans font-semibold"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="services.html"
+                      class="text-md font-sans font-semibold"
+                      >Service</a
+                    >
+                  </li>
+                  <li>
+                    <a href="about.html" class="text-md font-sans font-semibold"
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="skills.html"
+                      class="text-md font-sans font-semibold"
+                      >Skills</a
+                    >
+                  </li>
+                  <li>
+                    <a href="contact.html" class="text-md font-sans font-semibold">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="flex-none lg:hidden">
+                <label
+                  for="my-drawer-3"
+                  aria-label="open sidebar"
+                  class="btn btn-square btn-ghost"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    class="inline-block h-6 w-6 stroke-current"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    ></path>
+                  </svg>
+                </label>
+              </div>
+            </div>
+            <!-- Page content here -->
+          </div>
+          <div class="drawer-side">
+            <label
+              for="my-drawer-3"
+              aria-label="close sidebar"
+              class="drawer-overlay"
+            ></label>
+            <ul class="menu bg-base-200 min-h-full w-80 p-4">
+              <!-- Sidebar content here -->
+              <li>
+                <p class="text-xl font-semibold font-serif pb-3"><a href="index.html">Kowsar.Dev</a></p>
+              </li>
+              <hr />
+              <li class="mt-4 font-bold "><a href="index.html">Home</a></li>
+              <li class="font-bold"><a href="services.html">Services</a></li>
+              <li class="font-bold"><a href="contact.html">Contact</a></li>
+              <li class="font-bold"><a href="skills.html">Skills</a></li>
+              <li class="font-bold"><a href="about.html">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+   
+   
+      
+      <section class="contact">
+        <div class="container mx-auto mt-20 ">
+          <div>
+            <p class="text-center text-4xl font-semibold font-serif mt-20">
+          Contact details
+           </p>
+            <p class="p-4 mt-10 mb-4 text-center">For any type of online project please don't hesitate to get in touch with me. The fastest way is to send me your message using the following email contact@domain.com</p>
+          </div>
+          <div class=" flex flex-col max-w-2xl mx-auto ">
+            <input type="text" class="input w-full" placeholder="Name">
+            <br>
+            <input type="text" class="input w-full" placeholder="Email Or Number">
+            <br>
+            <input type="text" class="input p-10 w-full " placeholder="Project details">
+            
+           <div>
+             <button class="bg-blue-400 hover:bg-blue-800 hover:text-white  h-auto py-4 btn btn-md w-full mt-10">Submit</button>
+           </div>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+    
+  </body>
+</html>
